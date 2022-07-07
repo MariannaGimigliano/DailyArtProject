@@ -1,0 +1,498 @@
+[
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_achievement2.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/achievement2.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable_img_tebaide.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable/img_tebaide.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_artist_details.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_artist_details.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_sandro_botticelli.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_sandro_botticelli.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_concetto_spaziale_marinaio.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_concetto_spaziale_marinaio.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_settings.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_settings.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_logo_actionbar.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/logo_actionbar.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_antonio_canova.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_antonio_canova.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_card_layout_review.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/card_layout_review.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_web.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_web.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_la_statua_del_fiume_nilo.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_la_statua_del_fiume_nilo.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable_gradient.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable/gradient.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_crocifissione.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_crocifissione.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_activity_register.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_uffizi.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_uffizi.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_caravaggio.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_caravaggio.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_ragazzo_con_canestro_di_frutta.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_ragazzo_con_canestro_di_frutta.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_phone.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_phone.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_account.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_account.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_web_view.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_web_view.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_apollo_dafne.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_apollo_dafne.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_museo_capodimonte.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_museo_capodimonte.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_madonna_cardellino.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_madonna_cardellino.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_activity_login.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_gloria_di_roma.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_gloria_di_roma.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xhdpi_icon_explore.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xhdpi/icon_explore.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_arrow.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_arrow.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_gruppo_del_lacoonte.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_gruppo_del_lacoonte.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_venere_e_amore.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_venere_e_amore.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable_img_concetto_spaziale.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable/img_concetto_spaziale.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_quadro_visto.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_quadro_visto.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_all_artist.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_all_artist.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_galleria_accademia.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_galleria_accademia.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_activity_app_settings.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/activity_app_settings.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_favorite_white.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_favorite_white.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_papiro.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_papiro.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_all_artwork.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_all_artwork.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xhdpi_fotoprofilo.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xhdpi/fotoprofilo.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_recensione.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_recensione.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_scuola_atene.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_scuola_atene.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_map.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_map.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable_img_michelangelo_buonarroti.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable/img_michelangelo_buonarroti.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_card_layout_museums.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/card_layout_museums.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_paolo_terzo.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_paolo_terzo.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_baseline_emoji_events_white_48.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/baseline_emoji_events_white_48.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_salone_feste.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_salone_feste.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_amor_sacro_e_amor_profano.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_amor_sacro_e_amor_profano.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_activity_home.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.dailyart.app-pngs-39:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_artwork_details.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_artwork_details.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_museo_egizio.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_museo_egizio.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_flora.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_flora.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_all_review.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_all_review.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_gian_lorenzo_bernini.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_gian_lorenzo_bernini.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_visibility_white.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_visibility_white.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_favourites.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_favourites.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_card_layout_achivement.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/card_layout_achivement.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_mariano_rossi.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_mariano_rossi.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_bacco_adolescente.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_bacco_adolescente.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_activity_user_settings.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/activity_user_settings.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_danae.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_danae.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_map_marker.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_map_marker.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_activity_achievements.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/activity_achievements.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_account_edit.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_account_edit.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_scudo_testa_medusa.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_scudo_testa_medusa.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_museo_preferito.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/museo_preferito.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xhdpi_logo_app.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xhdpi/logo_app.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xhdpi_icon_account.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xhdpi/icon_account.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_primavera.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_primavera.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_play_arrow_48px.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/play_arrow_48px.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_paolo_uccello.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_paolo_uccello.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_cappella_sistina.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_cappella_sistina.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_elasticita.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_elasticita.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/menu_bottom_navigation_menu.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/menu/bottom_navigation_menu.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_bernini.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_bernini.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_enea_anchise_e_ascanio.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_enea_anchise_e_ascanio.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_paolina_borghese.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_paolina_borghese.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_madonna_col_bambino.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_madonna_col_bambino.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_arnaldo_pomodoro.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_arnaldo_pomodoro.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_bevitore.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_bevitore.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_museo_novecento.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_museo_novecento.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_museo_visto.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_museo_visto.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_card_layout_artwork.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/card_layout_artwork.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_tempio_ellesija.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_tempio_ellesija.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_quadro_preferito.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_quadro_preferito.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_stop_48px.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/stop_48px.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_visited.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_visited.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_card_layout_artist.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/card_layout_artist.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_cortile_della_pigna.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_cortile_della_pigna.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_venere_urbino.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_venere_urbino.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_raffaello.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_raffaello.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_tiziano_vecellio.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_tiziano_vecellio.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_favorite_border.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_favorite_border.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_david.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_david.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_lucio_fontana.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_lucio_fontana.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_explore.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_explore.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_sfinge.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_sfinge.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_masaccio.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_masaccio.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.dailyart.app-main-46:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_galleria_borghese.jpg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_galleria_borghese.jpg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_all_museum.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_all_museum.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_fragment_museum_details.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/fragment_museum_details.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_umberto_boccioni.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_umberto_boccioni.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_mensa_isiaca.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_mensa_isiaca.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_la_nascita_di_venere.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_la_nascita_di_venere.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_musei_vaticani.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_musei_vaticani.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_museo_preferito.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_museo_preferito.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_img_ramses.jpeg.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/img_ramses.jpeg"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_visibility_check.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_visibility_check.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxxhdpi_icon_add.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxxhdpi/icon_add.png"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/layout_card_layout_all_museum.xml.flat",
+        "source": "com.example.dailyart.app-main-46:/layout/card_layout_all_museum.xml"
+    },
+    {
+        "merged": "com.example.dailyart.app-merged_res-44:/drawable-xxhdpi_logo_daily_art.png.flat",
+        "source": "com.example.dailyart.app-main-46:/drawable-xxhdpi/logo_daily_art.png"
+    }
+]

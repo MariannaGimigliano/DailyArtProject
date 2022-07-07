@@ -1,0 +1,338 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.dailyart"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.CALL_PHONE" />
+14-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:8:5-69
+14-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:8:22-66
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:9:5-65
+15-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:9:22-62
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:10:5-80
+16-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:11:5-81
+17-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:11:22-78
+18
+19    <!-- Include required permissions for Google Maps API to run. -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:23:22-76
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:28:9-32
+25
+26    <queries>
+26-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:30:5-34:15
+27
+28        <!-- Needs to be explicitly declared on Android R+ -->
+29        <package android:name="com.google.android.apps.maps" />
+29-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:9-64
+29-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:33:18-61
+30    </queries>
+31
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/ce495ab8018e470d757d040910d60598/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:5-68
+32-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/ce495ab8018e470d757d040910d60598/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:24:22-65
+33    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+33-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/ce495ab8018e470d757d040910d60598/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:5-79
+33-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/ce495ab8018e470d757d040910d60598/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:25:22-76
+34    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+34-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:5-110
+34-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:26:22-107
+35
+36    <application
+36-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:13:5-38:19
+37        android:allowBackup="true"
+37-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:14:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.7.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/fa65f76517f9db7442ab9e45e47cd597/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+39        android:debuggable="true"
+40        android:extractNativeLibs="false"
+41        android:icon="@drawable/logo_app"
+41-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:15:9-42
+42        android:label="@string/app_name"
+42-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:16:9-41
+43        android:roundIcon="@drawable/logo_app"
+43-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:17:9-47
+44        android:supportsRtl="true"
+44-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:18:9-35
+45        android:testOnly="true"
+46        android:theme="@style/Theme.Light" >
+46-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:19:9-43
+47        <meta-data
+47-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:21:9-23:71
+48            android:name="com.google.android.geo.API_KEY"
+48-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:22:13-58
+49            android:value="AIzaSyAB5lMHHIXdT8E4jkf7i5rpuoKATAEoYOM" />
+49-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:23:13-68
+50
+51        <activity
+51-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:25:9-32:20
+52            android:name="com.example.dailyart.LoginActivity"
+52-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:26:13-42
+53            android:exported="true" >
+53-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:27:13-36
+54            <intent-filter>
+54-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:28:13-31:29
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:29:17-69
+55-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:29:25-66
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:30:17-77
+57-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:30:27-74
+58            </intent-filter>
+59        </activity>
+60        <activity android:name="com.example.dailyart.MainActivity" />
+60-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:33:9-50
+60-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:33:19-47
+61        <activity android:name="com.example.dailyart.UserSettingsActivity" />
+61-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:34:9-58
+61-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:34:19-55
+62        <activity android:name="com.example.dailyart.AppSettingsActivity" />
+62-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:35:9-57
+62-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:35:19-54
+63        <activity android:name="com.example.dailyart.RegisterActivity" />
+63-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:36:9-54
+63-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:36:19-51
+64        <activity android:name="com.example.dailyart.AchievementsActivity" />
+64-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:37:9-58
+64-->/Users/mariannagimigliano/Desktop/GIMIGLIANO/DailyArt/app/src/main/AndroidManifest.xml:37:19-55
+65        <!-- Needs to be explicitly declared on P+ -->
+66        <uses-library
+66-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:39:9-41:40
+67            android:name="org.apache.http.legacy"
+67-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:40:13-50
+68            android:required="false" />
+68-->[com.google.android.gms:play-services-maps:18.0.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/3431375aec1d489919fc86163eb19842/transformed/play-services-maps-18.0.2/AndroidManifest.xml:41:13-37
+69
+70        <service
+70-->[androidx.room:room-runtime:2.4.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/f8f6ce5cc6e4e40444a5d2210a0089ba/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+71            android:name="androidx.room.MultiInstanceInvalidationService"
+71-->[androidx.room:room-runtime:2.4.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/f8f6ce5cc6e4e40444a5d2210a0089ba/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+72            android:directBootAware="true"
+72-->[androidx.room:room-runtime:2.4.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/f8f6ce5cc6e4e40444a5d2210a0089ba/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+73            android:exported="false" />
+73-->[androidx.room:room-runtime:2.4.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/f8f6ce5cc6e4e40444a5d2210a0089ba/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+74        <service
+74-->[com.google.firebase:firebase-database:20.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1ea57ae0e75bfb084124fbc1b238c6a7/transformed/firebase-database-20.0.5/AndroidManifest.xml:29:9-35:19
+75            android:name="com.google.firebase.components.ComponentDiscoveryService"
+75-->[com.google.firebase:firebase-database:20.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1ea57ae0e75bfb084124fbc1b238c6a7/transformed/firebase-database-20.0.5/AndroidManifest.xml:30:13-84
+76            android:directBootAware="true"
+76-->[com.google.firebase:firebase-common:20.1.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/68f5c42987cb782ab40468e6d493c1c0/transformed/firebase-common-20.1.1/AndroidManifest.xml:35:13-43
+77            android:exported="false" >
+77-->[com.google.firebase:firebase-database:20.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1ea57ae0e75bfb084124fbc1b238c6a7/transformed/firebase-database-20.0.5/AndroidManifest.xml:31:13-37
+78            <meta-data
+78-->[com.google.firebase:firebase-database:20.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1ea57ae0e75bfb084124fbc1b238c6a7/transformed/firebase-database-20.0.5/AndroidManifest.xml:32:13-34:85
+79                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+79-->[com.google.firebase:firebase-database:20.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1ea57ae0e75bfb084124fbc1b238c6a7/transformed/firebase-database-20.0.5/AndroidManifest.xml:33:17-109
+80                android:value="com.google.firebase.components.ComponentRegistrar" />
+80-->[com.google.firebase:firebase-database:20.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1ea57ae0e75bfb084124fbc1b238c6a7/transformed/firebase-database-20.0.5/AndroidManifest.xml:34:17-82
+81            <meta-data
+81-->[com.google.firebase:firebase-storage:20.0.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/de352b44ca72a656c9fe80e61e2aa871/transformed/firebase-storage-20.0.1/AndroidManifest.xml:33:13-35:85
+82                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+82-->[com.google.firebase:firebase-storage:20.0.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/de352b44ca72a656c9fe80e61e2aa871/transformed/firebase-storage-20.0.1/AndroidManifest.xml:34:17-107
+83                android:value="com.google.firebase.components.ComponentRegistrar" />
+83-->[com.google.firebase:firebase-storage:20.0.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/de352b44ca72a656c9fe80e61e2aa871/transformed/firebase-storage-20.0.1/AndroidManifest.xml:35:17-82
+84            <meta-data
+84-->[com.google.firebase:firebase-firestore:24.1.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/d1cfa6c1d1cfa89d0590e04167c2a937/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:20:13-22:85
+85                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+85-->[com.google.firebase:firebase-firestore:24.1.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/d1cfa6c1d1cfa89d0590e04167c2a937/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:21:17-111
+86                android:value="com.google.firebase.components.ComponentRegistrar" />
+86-->[com.google.firebase:firebase-firestore:24.1.2] /Users/mariannagimigliano/.gradle/caches/transforms-3/d1cfa6c1d1cfa89d0590e04167c2a937/transformed/firebase-firestore-24.1.2/AndroidManifest.xml:22:17-82
+87            <meta-data
+87-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:67:13-69:85
+88                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+88-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:68:17-109
+89                android:value="com.google.firebase.components.ComponentRegistrar" />
+89-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:69:17-82
+90            <meta-data
+90-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/ce495ab8018e470d757d040910d60598/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:31:13-33:85
+91                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+91-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/ce495ab8018e470d757d040910d60598/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:32:17-139
+92                android:value="com.google.firebase.components.ComponentRegistrar" />
+92-->[com.google.android.gms:play-services-measurement-api:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/ce495ab8018e470d757d040910d60598/transformed/play-services-measurement-api-21.0.0/AndroidManifest.xml:33:17-82
+93            <meta-data
+93-->[com.google.firebase:firebase-installations:17.0.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/18f739a89bf75a1affa0f3a446f01cd9/transformed/firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+94                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+94-->[com.google.firebase:firebase-installations:17.0.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/18f739a89bf75a1affa0f3a446f01cd9/transformed/firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->[com.google.firebase:firebase-installations:17.0.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/18f739a89bf75a1affa0f3a446f01cd9/transformed/firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+96        </service>
+97
+98        <activity
+98-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:27:9-44:20
+99            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+99-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:28:13-80
+100            android:excludeFromRecents="true"
+100-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:29:13-46
+101            android:exported="true"
+101-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:30:13-36
+102            android:launchMode="singleTask"
+102-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:31:13-44
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+103-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:32:13-72
+104            <intent-filter>
+104-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:33:13-43:29
+105                <action android:name="android.intent.action.VIEW" />
+105-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:34:17-69
+105-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:34:25-66
+106
+107                <category android:name="android.intent.category.DEFAULT" />
+107-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:36:17-76
+107-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:36:27-73
+108                <category android:name="android.intent.category.BROWSABLE" />
+108-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:37:17-78
+108-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:37:27-75
+109
+110                <data
+110-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:39:17-42:51
+111                    android:host="firebase.auth"
+111-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:40:21-49
+112                    android:path="/"
+112-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:41:21-37
+113                    android:scheme="genericidp" />
+113-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:42:21-48
+114            </intent-filter>
+115        </activity>
+116        <activity
+116-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:45:9-62:20
+117            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+117-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:46:13-79
+118            android:excludeFromRecents="true"
+118-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:47:13-46
+119            android:exported="true"
+119-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:48:13-36
+120            android:launchMode="singleTask"
+120-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:49:13-44
+121            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+121-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:50:13-72
+122            <intent-filter>
+122-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:51:13-61:29
+123                <action android:name="android.intent.action.VIEW" />
+123-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:34:17-69
+123-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:34:25-66
+124
+125                <category android:name="android.intent.category.DEFAULT" />
+125-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:36:17-76
+125-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:36:27-73
+126                <category android:name="android.intent.category.BROWSABLE" />
+126-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:37:17-78
+126-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:37:27-75
+127
+128                <data
+128-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:39:17-42:51
+129                    android:host="firebase.auth"
+129-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:40:21-49
+130                    android:path="/"
+130-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:41:21-37
+131                    android:scheme="recaptcha" />
+131-->[com.google.firebase:firebase-auth:21.0.5] /Users/mariannagimigliano/.gradle/caches/transforms-3/1d3f0c2ea399de13b177e9ec565a570c/transformed/firebase-auth-21.0.5/AndroidManifest.xml:42:21-48
+132            </intent-filter>
+133        </activity>
+134
+135        <provider
+135-->[com.google.firebase:firebase-common:20.1.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/68f5c42987cb782ab40468e6d493c1c0/transformed/firebase-common-20.1.1/AndroidManifest.xml:26:9-31:39
+136            android:name="com.google.firebase.provider.FirebaseInitProvider"
+136-->[com.google.firebase:firebase-common:20.1.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/68f5c42987cb782ab40468e6d493c1c0/transformed/firebase-common-20.1.1/AndroidManifest.xml:27:13-77
+137            android:authorities="com.example.dailyart.firebaseinitprovider"
+137-->[com.google.firebase:firebase-common:20.1.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/68f5c42987cb782ab40468e6d493c1c0/transformed/firebase-common-20.1.1/AndroidManifest.xml:28:13-72
+138            android:directBootAware="true"
+138-->[com.google.firebase:firebase-common:20.1.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/68f5c42987cb782ab40468e6d493c1c0/transformed/firebase-common-20.1.1/AndroidManifest.xml:29:13-43
+139            android:exported="false"
+139-->[com.google.firebase:firebase-common:20.1.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/68f5c42987cb782ab40468e6d493c1c0/transformed/firebase-common-20.1.1/AndroidManifest.xml:30:13-37
+140            android:initOrder="100" />
+140-->[com.google.firebase:firebase-common:20.1.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/68f5c42987cb782ab40468e6d493c1c0/transformed/firebase-common-20.1.1/AndroidManifest.xml:31:13-36
+141
+142        <activity
+142-->[com.google.android.gms:play-services-base:18.0.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/bdf6af1115cc5f703f4bc7316151f842/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+143            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+143-->[com.google.android.gms:play-services-base:18.0.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/bdf6af1115cc5f703f4bc7316151f842/transformed/play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+144            android:exported="false"
+144-->[com.google.android.gms:play-services-base:18.0.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/bdf6af1115cc5f703f4bc7316151f842/transformed/play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+145            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+145-->[com.google.android.gms:play-services-base:18.0.1] /Users/mariannagimigliano/.gradle/caches/transforms-3/bdf6af1115cc5f703f4bc7316151f842/transformed/play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+146
+147        <receiver
+147-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:29:9-33:20
+148            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+148-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:30:13-85
+149            android:enabled="true"
+149-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:31:13-35
+150            android:exported="false" >
+150-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:32:13-37
+151        </receiver>
+152
+153        <service
+153-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:35:9-38:40
+154            android:name="com.google.android.gms.measurement.AppMeasurementService"
+154-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:36:13-84
+155            android:enabled="true"
+155-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:37:13-35
+156            android:exported="false" />
+156-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:38:13-37
+157        <service
+157-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:39:9-43:72
+158            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+158-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:40:13-87
+159            android:enabled="true"
+159-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:41:13-35
+160            android:exported="false"
+160-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:42:13-37
+161            android:permission="android.permission.BIND_JOB_SERVICE" />
+161-->[com.google.android.gms:play-services-measurement:21.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/98a774d8c68ec76867ac604588248bcd/transformed/play-services-measurement-21.0.0/AndroidManifest.xml:43:13-69
+162
+163        <meta-data
+163-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/f1f828eaabec4636a77e63977c1feef3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+164            android:name="com.google.android.gms.version"
+164-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/f1f828eaabec4636a77e63977c1feef3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+165            android:value="@integer/google_play_services_version" />
+165-->[com.google.android.gms:play-services-basement:18.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/f1f828eaabec4636a77e63977c1feef3/transformed/play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+166
+167        <provider
+167-->[androidx.emoji2:emoji2:1.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/4140ed70df355f97e4e82261e22bfd69/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+168            android:name="androidx.startup.InitializationProvider"
+168-->[androidx.emoji2:emoji2:1.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/4140ed70df355f97e4e82261e22bfd69/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+169            android:authorities="com.example.dailyart.androidx-startup"
+169-->[androidx.emoji2:emoji2:1.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/4140ed70df355f97e4e82261e22bfd69/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+170            android:exported="false" >
+170-->[androidx.emoji2:emoji2:1.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/4140ed70df355f97e4e82261e22bfd69/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+171            <meta-data
+171-->[androidx.emoji2:emoji2:1.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/4140ed70df355f97e4e82261e22bfd69/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+172                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+172-->[androidx.emoji2:emoji2:1.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/4140ed70df355f97e4e82261e22bfd69/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+173                android:value="androidx.startup" />
+173-->[androidx.emoji2:emoji2:1.0.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/4140ed70df355f97e4e82261e22bfd69/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+174            <meta-data
+174-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/11a1afb5c7554131664de82d52e74e2b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+175                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+175-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/11a1afb5c7554131664de82d52e74e2b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+176                android:value="androidx.startup" />
+176-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/mariannagimigliano/.gradle/caches/transforms-3/11a1afb5c7554131664de82d52e74e2b/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+177        </provider>
+178    </application>
+179
+180</manifest>
