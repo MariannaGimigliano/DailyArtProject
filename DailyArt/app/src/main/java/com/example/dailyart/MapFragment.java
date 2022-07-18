@@ -139,7 +139,6 @@ public class MapFragment extends Fragment implements GoogleMap.OnMyLocationButto
         dbRef.child("Museum").addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
-                int count = 0;
                 for (DataSnapshot dataSnapshot : snapshot.getChildren()) {
                     Museum museum = dataSnapshot.getValue(Museum.class);
                     MarkerOptions m = new MarkerOptions().title(museum.getName()).position(new LatLng(museum.getLatitude(), museum.getLongitude()));
